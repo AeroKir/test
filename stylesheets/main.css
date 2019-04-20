@@ -243,7 +243,7 @@ body {
 } */
 
 .leaf-item-home {
-  top: calc(100% - 38em);
+  top: calc(100% - 35em);
   left: calc(100% - 13em);
   width: 9em;
   height: auto;
@@ -258,21 +258,21 @@ body {
 }
 
 .leaf-item-skills {
-  top: calc(100% - 30em);
+  top: calc(100% - 28em);
   left: calc(100% - 13em);
   width: 6em;
   height: auto;
 }
 
 .leaf-item-work {
-  top: calc(100% - 26em);
+  top: calc(100% - 24em);
   left: calc(100% - 20em);
   width: 4.5em;
   height: auto;
 }
 
 .leaf-item-github {
-  top: calc(100% - 25.4em);
+  top: calc(100% - 23.5em);
   left: calc(100% - 15.4em);
   width: 4em;
   height: auto;
@@ -283,7 +283,7 @@ body {
 }
 
 .leaf-item-linkedin {
-  top: calc(100% - 22em);
+  top: calc(100% - 20em);
   left: calc(100% - 17em);
   width: 5em;
   height: auto;
@@ -294,14 +294,14 @@ body {
 }
 
 .leaf-item-about {
-  top: calc(100% - 23.5em);
+  top: calc(100% - 22em);
   left: calc(100% - 12em);
   width: 5em;
   height: auto;
 }
 
 .leaf-item-contacts {
-  top: calc(100% - 18em);
+  top: calc(100% - 17em);
   left: calc(100% - 13em);
   width: 7em;
   height: auto;
@@ -313,8 +313,8 @@ body {
 
 .leaf-item-assets {
   /* bottom: calc(100vh / 50vw * 73%); */
-  top: calc(100% - 34em);
-  left: calc(100% - 4.5em);
+  top: calc(100% - 31em);
+  left: calc(100% - 4em);
   width: 4em;
   height: auto;
 }
@@ -324,7 +324,7 @@ body {
 }
 
 .leaf-item-cv {
-  top: calc(100% - 27em);
+  top: calc(100% - 25em);
   left: calc(100% - 2em);
   width: 3em;
   height: auto;
@@ -336,7 +336,7 @@ body {
 }
 
 .leaf-item-license {
-  top: calc(100% - 22.5em);
+  top: calc(100% - 21em);
   left: calc(100% - 3em);
   width: 4em;
   height: auto;
