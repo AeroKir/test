@@ -335,44 +335,44 @@ body {
 
 @media screen and (min-width: 601px) {
   .leaf-item-home {
-    top: calc(100% - 41em);
-    left: calc(100% - 15em);
+    top: calc(100% - 35em);
+    left: calc(100% - 13em);
   }
   .leaf-item-skills {
-    top: calc(100% - 33em);
-    left: calc(100% - 16em);
+    top: calc(100% - 27.5em);
+    left: calc(100% - 13em);
   }
   .leaf-item-work {
-    top: calc(100% - 29em);
-    left: calc(100% - 26em);
+    top: calc(100% - 24em);
+    left: calc(100% - 22em);
   }
   .leaf-item-github {
-    top: calc(100% - 27.9em);
-    left: calc(100% - 21em);
-  }
-  .leaf-item-linkedin {
-    top: calc(100% - 24.7em);
-    left: calc(100% - 23em);
-  }
-  .leaf-item-about {
-    top: calc(100% - 26em);
-    left: calc(100% - 15em);
-  }
-  .leaf-item-contacts {
-    top: calc(100% - 20em);
+    top: calc(100% - 23.4em);
     left: calc(100% - 17em);
   }
+  .leaf-item-linkedin {
+    top: calc(100% - 20.1em);
+    left: calc(100% - 18.5em);
+  }
+  .leaf-item-about {
+    top: calc(100% - 22em);
+    left: calc(100% - 13em);
+  }
+  .leaf-item-contacts {
+    top: calc(100% - 17em);
+    left: calc(100% - 14em);
+  }
   .leaf-item-assets {
-    top: calc(100% - 36.4em);
-    left: calc(100% - 4.5em);
+    top: calc(100% - 31em);
+    left: calc(100% - 3.5em);
   }
   .leaf-item-cv {
-    top: calc(100% - 29em);
-    left: calc(100% - 2em);
+    top: calc(100% - 25em);
+    left: calc(100% - 1.5em);
   }
   .leaf-item-license {
-    top: calc(100% - 24.5em);
-    left: calc(100% - 3em);
+    top: calc(100% - 21em);
+    left: calc(100% - 2em);
   }
 }
 
