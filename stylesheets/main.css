@@ -175,7 +175,7 @@ body {
 .breadcrumbs-nav-item:last-child .breadcrumbs-nav-link::before {
   /* content: url(../images/nav-arrow.svg);
   width: 5px; */
-  /* content: '\1F81A'; */
+  content: '\2192';
   padding-left: 3px;
   padding-right: 3px;
 }
