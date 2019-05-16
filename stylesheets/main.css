@@ -167,8 +167,8 @@ body {
 }
 
 .breadcrumbs-nav-item:last-child::before {
-  /* content: '\2192'; */
-  content: '\2B62';
+  content: '\2192';
+  /* content: '\2B62'; */
   padding-left: 3px;
   padding-right: 3px;
   font-weight: 700;
