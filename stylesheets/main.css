@@ -173,8 +173,9 @@ body {
 }
 
 .breadcrumbs-nav-item:last-child .breadcrumbs-nav-link::before {
-  /* content: url(../images/cv-menu-leaf.svg); */
-  content: '\1F81A';
+  /* content: url(../images/nav-arrow.svg);
+  width: 5px; */
+  /* content: '\1F81A'; */
   padding-left: 3px;
   padding-right: 3px;
 }
