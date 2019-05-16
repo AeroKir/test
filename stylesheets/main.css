@@ -99,8 +99,10 @@ body {
   }
 }
 
-.page-content {
+.layout-main-content {
   /* display: none; */
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .main-page-content {
@@ -194,7 +196,7 @@ body {
     background-position: 50% 100%;
     /* border: 1px solid; */
   }
-  .page-content {
+  .layout-page-content {
     display: block;
     width: 60vw;
     /* border: 1px solid brown; */
@@ -471,7 +473,7 @@ body {
 /* Contacts page styles */
 
 .contacts-section {
-  padding: 0 2em 0 2em;
+  /* padding: 0 2em 0 1em; */
 }
 
 .contacts-list {
