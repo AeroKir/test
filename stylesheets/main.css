@@ -80,6 +80,16 @@ body {
   font-style: italic;
 }
 
+/* Logo styles */
+
+.logo {
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  width: 30px;
+  height: auto;
+}
+
 /* Heading styles */
 
 .main-heading {
@@ -157,6 +167,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   align-items: baseline;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .breadcrumbs-nav-item {
@@ -502,6 +513,8 @@ body {
 
 .contacts-section {
   /* padding: 0 2em 0 1em; */
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
 }
 
 .contacts-list {
