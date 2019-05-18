@@ -84,10 +84,14 @@ body {
 
 .logo {
   position: absolute;
-  top: 0.5em;
-  left: 0.5em;
+  top: 1em;
+  left: 1.3em;
   width: 30px;
   height: auto;
+}
+
+.logo-is-not-main-page {
+  width: 20px;
 }
 
 /* Heading styles */
@@ -157,7 +161,7 @@ body {
 }
 
 .breadcrumbs-nav {
-  padding: 0.5em 0 0 1em;
+  padding: 1em 0 0 1em;
   /* border: 1px solid; */
   margin-bottom: 1em;
 }
@@ -166,7 +170,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: baseline;
+  align-items: flex-end;
+  justify-content: center;
   font-family: 'Open Sans', sans-serif;
 }
 
