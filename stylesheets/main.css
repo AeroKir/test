@@ -191,9 +191,11 @@ body {
 .breadcrumbs-nav-item:last-child .breadcrumbs-nav-link::before {
   /* content: url(../images/nav-arrow.svg);
   width: 5px; */
-  content: '\2192';
+  /* content: '\2192'; */
+  content: '\2794';
   padding-left: 3px;
   padding-right: 3px;
+  vertical-align: baseline;
 }
 
 /* .breadcrumbs-nav-item {
