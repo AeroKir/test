@@ -229,27 +229,7 @@ body {
   vertical-align: baseline;
 }
 
-@media screen and (min-height: 320px) and (max-height: 415px) {
-  .main-nav-wrapper {
-    background-image: url('../images/album-mob-menu-stem.svg');
-    background-repeat: no-repeat;
-    background-size: 67% auto;
-    background-position: 50% 100%;
-  }
-}
-
-@media screen and (width: 812px) and (height: 375px) {
-  .main-nav-wrapper {
-    background-size: 50% auto;
-    background-position: 50% 100%;
-  }
-}
-
 @media screen and (min-width: 960px) {
-  .main-nav-wrapper {
-    width: 40vw;
-    background-position: 50% 100%;
-  }
   .layout-page-content {
     display: block;
     width: 60vw;
@@ -397,7 +377,7 @@ body {
 
 /* Styles for horizontal-oriented mobile devices. Without tablets */
 
-@media screen and (min-height: 320px) and (max-height: 415px) {
+@media screen and (min-height: 280px) and (max-height: 415px) {
   .page-wrapper {
     display: flex;
   }
@@ -405,7 +385,6 @@ body {
     display: block;
     height: 100vh;
   }
-
   .main-nav-menu {
     width: 20vw;
     padding-left: 1em;
@@ -426,8 +405,7 @@ body {
     -webkit-clip-path: none;
     clip-path: none;
   }
-  
-  .leaf-item-home {
+  /* .leaf-item-home {
     top: calc(100% - 19em);
     left: calc(100% - 27em);
     width: 21vw;
@@ -476,7 +454,7 @@ body {
     top: calc(100% - 42%);
     left: calc(100% - 24%);
     width: 12vw;
-  }
+  } */
 }
 
 @media screen and (min-width: 601px) {
