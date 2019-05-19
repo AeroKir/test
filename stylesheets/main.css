@@ -377,7 +377,7 @@ body {
 
 /* Styles for horizontal-oriented mobile devices. Without tablets */
 
-@media screen and (min-height: 280px) and (max-height: 415px) {
+@media screen and (min-height: 200px) and (max-height: 415px) {
   .page-wrapper {
     display: flex;
   }
