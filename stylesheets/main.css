@@ -116,7 +116,8 @@ body {
 
 .layout-main-content {
   /* display: none; */
-  width: 100vw;
+  /* width: 100vw; */
+  margin-top:5em;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -187,6 +188,14 @@ body {
   position: absolute;
   bottom: 0;
   margin-left: calc(100% - 19em);
+}
+
+.top-nav-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(175, 204, 221, 1);
 }
 
 .breadcrumbs-nav {
@@ -381,12 +390,17 @@ body {
   .page-wrapper {
     display: flex;
   }
+  .logo, .logo-is-not-main-page {
+    position: fixed;
+  }
   .main-page-content {
     display: block;
     height: 100vh;
   }
   .main-nav-menu {
     width: 20vw;
+  }
+  .main-nav-menu-list {
     padding-left: 1em;
     border-left: 1px solid #3b5554;
   }
@@ -405,56 +419,13 @@ body {
     -webkit-clip-path: none;
     clip-path: none;
   }
-  /* .leaf-item-home {
-    top: calc(100% - 19em);
-    left: calc(100% - 27em);
-    width: 21vw;
+  .breadcrumbs-nav {
+    width: 30vw;
   }
-  .leaf-item-skills {
-    top: calc(100% - 76%);
-    left: calc(100% - 65%);
-    width: 12vw;
+  .breadcrumbs-nav-list {
+    position: fixed;
+    top: 50px;
   }
-  .leaf-item-work {
-    top: calc(100% - 60%);
-    left: calc(100% - 89%);
-    width: 12vw;
-  }
-  .leaf-item-github {
-    top: calc(100% - 55%);
-    left: calc(100% - 76%);
-    width: 10vw;
-  }
-  .leaf-item-linkedin {
-    top: calc(100% - 41%);
-    left: calc(100% - 80%);
-    width: 11vw;
-  }
-  .leaf-item-about {
-    top: calc(100% - 58%);
-    left: calc(100% - 60%);
-    width: 11vw;
-  }
-  .leaf-item-contacts {
-    top: calc(100% - 29%);
-    left: calc(100% - 64%);
-    width: 15vw;
-  }
-  .leaf-item-assets {
-    top: calc(100% - 84%);
-    left: calc(100% - 34%);
-    width: 10vw;
-  }
-  .leaf-item-cv {
-    top: calc(100% - 58%);
-    left: calc(100% - 33%);
-    width: 8vw;
-  }
-  .leaf-item-license {
-    top: calc(100% - 42%);
-    left: calc(100% - 24%);
-    width: 12vw;
-  } */
 }
 
 @media screen and (min-width: 601px) {
