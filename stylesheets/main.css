@@ -195,6 +195,7 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
+  height: 10vh;
   background-color: rgba(175, 204, 221, 1);
 }
 
@@ -419,12 +420,20 @@ body {
     -webkit-clip-path: none;
     clip-path: none;
   }
-  .breadcrumbs-nav {
+  .is-aside {
     width: 30vw;
+    height: 100vh;
+  }
+  .breadcrumbs-nav {
+    /* width: 30vw; */
   }
   .breadcrumbs-nav-list {
     position: fixed;
-    top: 50px;
+    top: 25vh;
+  }
+  .layout-main-content {
+    margin-top: 1em;
+    margin-left: 30vw
   }
 }
 
