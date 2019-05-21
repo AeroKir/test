@@ -80,6 +80,58 @@ body {
   font-style: italic;
 }
 
+/* Styles for horizontal-oriented mobile devices. Without tablets */
+
+@media screen and (min-height: 200px) and (max-height: 500px) {
+  .page-wrapper {
+    display: flex;
+  }
+  .logo, .logo-is-not-main-page {
+    position: fixed;
+  }
+  .main-page-content {
+    display: block;
+    height: 100vh;
+  }
+  .main-nav-menu {
+    width: 20vw;
+  }
+  .main-nav-menu-list {
+    padding-left: 1em;
+    border-left: 1px solid #3b5554;
+  }
+  .main-nav-menu-item {
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    border-bottom: 1px solid #3b5554;
+    color: #4169E1;
+    font-weight: 700;
+  }
+  .main-nav-menu-stem, .main-nav-menu-leaf {
+    display: none;
+  }
+  .main-nav-menu-text:not(:focus):not(:active) {
+    position: static;
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+  .is-aside {
+    width: 30vw;
+    height: 100vh;
+  }
+  .breadcrumbs-nav {
+    /* width: 30vw; */
+  }
+  .breadcrumbs-nav-list {
+    position: fixed;
+    top: 25vh;
+  }
+  .layout-main-content {
+    margin-top: 1em;
+    margin-left: 30vw
+  }
+}
+
 /* Logo styles */
 
 .logo {
@@ -480,58 +532,6 @@ body {
   .leaf-item-license {
     top: calc(100% - 21em);
     left: calc(100% - 2em);
-  }
-}
-
-/* Styles for horizontal-oriented mobile devices. Without tablets */
-
-@media screen and (min-height: 200px) and (max-height: 500px) {
-  .page-wrapper {
-    display: flex;
-  }
-  .logo, .logo-is-not-main-page {
-    position: fixed;
-  }
-  .main-page-content {
-    display: block;
-    height: 100vh;
-  }
-  .main-nav-menu {
-    width: 20vw;
-  }
-  .main-nav-menu-list {
-    padding-left: 1em;
-    border-left: 1px solid #3b5554;
-  }
-  .main-nav-menu-item {
-    margin-top: 0.4em;
-    margin-bottom: 0.4em;
-    border-bottom: 1px solid #3b5554;
-    color: #4169E1;
-    font-weight: 700;
-  }
-  .main-nav-menu-stem, .main-nav-menu-leaf {
-    display: none;
-  }
-  .main-nav-menu-text:not(:focus):not(:active) {
-    position: static;
-    -webkit-clip-path: none;
-    clip-path: none;
-  }
-  .is-aside {
-    width: 30vw;
-    height: 100vh;
-  }
-  .breadcrumbs-nav {
-    /* width: 30vw; */
-  }
-  .breadcrumbs-nav-list {
-    position: fixed;
-    top: 25vh;
-  }
-  .layout-main-content {
-    margin-top: 1em;
-    margin-left: 30vw
   }
 }
 
