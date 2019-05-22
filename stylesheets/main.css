@@ -80,6 +80,49 @@ body {
   font-style: italic;
 }
 
+/* Animation keyframes */
+
+@keyframes appearance-bottom-top {
+  from {
+    opacity: 0;
+    transform-origin: 0% 0%;
+    transform: translate(-50%, 100%);
+  }
+  to {
+    opacity: 1;
+    /* transform-origin: 0% 0%; */
+    transform: translate(0%, 0%);
+  }
+}
+
+@keyframes blow {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(5px, 2px);
+  }
+  50% {
+    transform: translate(3px, 1px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes appearance {
+  from {
+    opacity: 0;
+    transform-origin: 0% 0%;
+    transform: translate(-50%, 0%);
+  }
+  to {
+    opacity: 1;
+    /* transform-origin: 0% 0%; */
+    transform: translate(0%, 0%);
+  }
+}
+
 /* Logo styles */
 
 .logo {
@@ -98,9 +141,12 @@ body {
 /* Heading styles */
 
 .main-heading {
+  font-family: 'Baloo Bhai', cursive;
   font-size: 2em;
-  font-weight: bold;
+  font-style: normal;
+  /* font-weight: bold; */
   margin-bottom: 0.5em;
+  color: #3b5554;
 }
 
 .page-wrapper {
@@ -118,9 +164,14 @@ body {
 .layout-main-content {
   /* display: none; */
   /* width: 100vw; */
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   padding-left: 1em;
   padding-right: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.section {
+  margin-top: 10vh;
 }
 
 @media screen and (min-width: 751px) {
@@ -153,12 +204,8 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
   }
-}
-
-.about, .contacts {
-  width: 40vw;
-  /* font-family: 'Purisa Bold Oblique'; */
 }
 
 /* Menu styles */
@@ -176,20 +223,6 @@ body {
   margin: 0 auto;
   margin-right: 2em;
   position: relative;
-  /* border: 1px solid; */
-}
-
-@keyframes appearance-bottom-top {
-  from {
-    opacity: 0;
-    transform-origin: 0% 0%;
-    transform: translate(-50%, 100%);
-  }
-  to {
-    opacity: 1;
-    /* transform-origin: 0% 0%; */
-    transform: translate(0%, 0%);
-  }
 }
 
 @media screen and (max-width: 750px) {
@@ -285,21 +318,6 @@ body {
   /* transition: fill 0.5s linear; */
   /* transition: all 1s cubic-bezier(.10, .10, .25, .90); */
   /* transition: stroke 0.5s linear; */
-}
-
-@keyframes blow {
-  0% {
-    transform: translate(0, 0);
-  }
-  25% {
-    transform: translate(5px, 2px);
-  }
-  50% {
-    transform: translate(3px, 1px);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
 }
 
 .main-nav-menu-leaf:hover {
@@ -427,6 +445,7 @@ body {
   .main-page-content {
     display: block;
     height: 100vh;
+    margin-left: -15vw;
   }
   .main-nav-menu {
     width: 20vw;
@@ -549,19 +568,6 @@ body {
 }
 
 /* Contacts page styles */
-
-@keyframes appearance {
-  from {
-    opacity: 0;
-    transform-origin: 0% 0%;
-    transform: translate(-50%, 0%);
-  }
-  to {
-    opacity: 1;
-    /* transform-origin: 0% 0%; */
-    transform: translate(0%, 0%);
-  }
-}
 
 .contacts-section {
   /* padding: 0 2em 0 1em; */
