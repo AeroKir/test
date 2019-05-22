@@ -164,14 +164,10 @@ body {
 .layout-main-content {
   /* display: none; */
   /* width: 100vw; */
-  /* margin-top: 10vh; */
+  margin-top: 10vh;
   padding-left: 1em;
   padding-right: 1em;
   font-family: 'Open Sans', sans-serif;
-}
-
-.section {
-  margin-top: 10vh;
 }
 
 @media screen and (min-width: 751px) {
