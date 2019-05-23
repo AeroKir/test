@@ -145,8 +145,8 @@ body {
   font-size: 2em;
   font-style: normal;
   /* font-weight: bold; */
-  margin-bottom: 0.5em;
-  color: #3b5554;
+  /* margin-bottom: 0.5em; */
+  color: #1A3C50;
 }
 
 .page-wrapper {
@@ -172,7 +172,7 @@ body {
 
 @media screen and (min-width: 751px) {
   .layout-main-content {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 60vw;
     height: 90vh;
     overflow: auto;
@@ -189,6 +189,9 @@ body {
   .layout-main-content {
     width: 85vw;
   }
+  .greeting-text {
+    width: calc(100% / 1.5);
+  }
 }
 
 .main-page-content {
@@ -202,6 +205,18 @@ body {
     display: flex;
     flex-direction: column;
   }
+}
+
+.main-page-section {
+  margin-top: calc(100% / 5);
+  font-family: 'Baloo Bhai';
+  font-style: normal;
+  font-size: 1.3em;
+  color: #152A23;
+}
+
+.greeting-text {
+  line-height: 1.4em;
 }
 
 /* Menu styles */
@@ -441,6 +456,9 @@ body {
   .main-page-content {
     display: block;
     height: 100vh;
+  }
+  .main-page-section {
+    margin-top: 1em;
     margin-left: -15vw;
   }
   .main-nav-menu {
