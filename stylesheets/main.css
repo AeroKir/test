@@ -621,7 +621,7 @@ body {
   align-items: center;
 }
 
-.contacts-icon {
+.contacts-icon, .tech-icon {
   width: 50px;
   margin-right: 0.5em;
 }
