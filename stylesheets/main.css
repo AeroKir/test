@@ -581,6 +581,12 @@ body {
   }
 }
 
+/* Section general styles */
+
+.section {
+  animation: appearance 0.7s ease-out;
+}
+
 /* Contacts page styles */
 
 .contacts-section {
