@@ -138,7 +138,7 @@ body {
   width: 20px;
 }
 
-/* Heading styles */
+/* Headings styles */
 
 .main-heading {
   font-family: 'Baloo Bhai', cursive;
@@ -147,6 +147,17 @@ body {
   /* font-weight: bold; */
   /* margin-bottom: 0.5em; */
   color: #1A3C50;
+}
+
+.sub-heading {
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+}
+
+.item-heading {
+  font-size: 1em;
+  font-weight: 700;
+  margin-bottom: 0.3em;
 }
 
 .page-wrapper {
@@ -585,6 +596,34 @@ body {
 
 .section {
   animation: appearance 0.7s ease-out;
+}
+
+.link-in-text {
+  text-decoration: underline;
+  color: #406A83;
+}
+
+/* Skills page styles */
+
+.skills-list, .workflow-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.skill-item, .workflow-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.layout-item-content-wrapper {
+  font-size: 1em;
+  line-height: 1.3em;
 }
 
 /* Contacts page styles */
