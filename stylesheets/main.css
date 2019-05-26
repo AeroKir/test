@@ -67,6 +67,13 @@ a {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Baloo Bhai';
+  src: url('../fonts/BalooBhai-Regular.woff2') format('woff2'), url('../fonts/BalooBhai-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body {
   width: 100%;
   height: 100%;
@@ -75,9 +82,9 @@ html, body {
 body {
   background-color: rgba(175, 204, 221, 0.5);
   color: #152A23;
-  font-family: Purisa, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
   font-size: 14px;
-  font-style: italic;
 }
 
 /* Animation keyframes */
@@ -178,7 +185,6 @@ body {
   margin-top: 10vh;
   padding-left: 1em;
   padding-right: 1em;
-  font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (min-width: 751px) {
@@ -285,7 +291,6 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .breadcrumbs-nav-item {
@@ -358,6 +363,7 @@ body {
   stroke: #ffffff;
   stroke-width: 0.01em;
   font-size: 0.9em;
+  font-family: Purisa, sans-serif;
   font-weight: bold;
   font-style: italic;
 }
@@ -605,7 +611,7 @@ body {
 
 /* Skills page styles */
 
-.skills-list, .workflow-list {
+.skills-list, .workflow-list, .soft-skills-list, .languages-skills-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -615,10 +621,14 @@ body {
   flex-direction: column;
 }
 
-.skill-item, .workflow-item {
+.skill-item, .workflow-item, .soft-skill-item, .language-skill-item {
   display: flex;
   align-items: center;
   margin-bottom: 2em;
+}
+
+.language-skill-item {
+  margin-bottom: 0.5em;
 }
 
 .layout-item-content-wrapper {
@@ -626,13 +636,13 @@ body {
   line-height: 1.3em;
 }
 
+.layout-item-content-wrapper p {
+  font-style: italic;
+}
+
 /* Contacts page styles */
 
 .contacts-section {
-  /* padding: 0 2em 0 1em; */
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  /* transition: all 1s cubic-bezier(0.95, 0.05, 0.795, 0.035); */
   animation: appearance 0.7s ease-out;
 }
 
@@ -661,7 +671,7 @@ body {
 }
 
 .contacts-icon, .tech-icon {
-  width: 50px;
+  width: 40px;
   margin-right: 0.5em;
 }
 
