@@ -627,8 +627,17 @@ body {
   margin-bottom: 2em;
 }
 
-.language-skill-item {
+.soft-skill-item, .language-skill-item {
   margin-bottom: 0.5em;
+}
+
+.soft-skill-item:last-child, .language-skill-item:last-child {
+  margin-bottom: 2em;
+}
+
+.soft-skill-item::before, .language-skill-item::before {
+  content: '\2022';
+  margin-right: 0.3em;
 }
 
 .layout-item-content-wrapper {
