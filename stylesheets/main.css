@@ -744,6 +744,14 @@ body {
   font-style: italic;
 }
 
+/* About page styles */
+
+.avatar-image {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
 /* Contacts page styles */
 
 .contacts-section {
