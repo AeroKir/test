@@ -777,6 +777,7 @@ body {
 
 .contacts-icon, .tech-icon {
   width: 40px;
+  height: 40px;
   margin-right: 0.5em;
 }
 
