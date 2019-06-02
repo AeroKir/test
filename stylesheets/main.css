@@ -206,6 +206,11 @@ body {
   width: 20px;
 }
 
+.logo-link:focus .logo {
+  border: 2px solid rgba(170, 46, 0, 0.8);
+  border-radius: 5px;
+}
+
 /* Headings styles */
 
 .main-heading {
@@ -215,6 +220,15 @@ body {
   /* font-weight: bold; */
   /* margin-bottom: 0.5em; */
   color: #1A3C50;
+}
+
+.main-heading a {
+  text-decoration: underline;
+}
+
+.main-heading span {
+  color: #5D1212;
+  font-size: 0.8em;
 }
 
 .sub-heading {
@@ -711,6 +725,11 @@ body {
   color: #406A83;
 }
 
+.link-in-text:hover {
+  background-color: rgba(175, 204, 221, 0.5);
+  transition: 0.5s ease-out;
+}
+
 /* Skills and Assets page styles */
 
 .skills-list, .workflow-list, .soft-skills-list {
@@ -779,6 +798,11 @@ body {
   border-radius: 10px;
   padding: 1em;
   margin-bottom: 1em;
+}
+
+.assets-item:hover {
+  background-color: rgba(175, 204, 221, 0.5);
+  transition: 0.5s ease-out;
 }
 
 .assets-item a {
