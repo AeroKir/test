@@ -730,7 +730,7 @@ body {
   transition: 0.5s ease-out;
 }
 
-/* Skills and Assets page styles */
+/* Skills, Assets and License page styles */
 
 .skills-list, .workflow-list, .soft-skills-list {
   border-bottom: 1px solid #AFCCDD;
@@ -778,9 +778,19 @@ body {
   margin-bottom: 2em;
 }
 
-.soft-skill-item::before, .language-skill-item::before {
+.soft-skill-item::before,
+.language-skill-item::before {
   content: '\2022';
   margin-right: 0.3em;
+}
+
+.licenses-list-item {
+  margin-bottom: 1em;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 1em;
 }
 
 .layout-item-content-wrapper {
